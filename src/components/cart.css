@@ -1,0 +1,72 @@
+#cart-bill {
+  text-align: center;
+  position: static;
+  color: rgb(218, 255, 5);
+  padding: 5px;
+  margin-top: 10px;
+  background-color: rgba(0, 0, 242, 0.13);
+}
+
+#billing-heading {
+  font-size: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-style: italic;
+  text-align: center;
+  color: brown;
+}
+
+#main-div {
+  display: flex;
+  padding-left: 60px;
+  padding-top: 60px;
+  width: 400px;
+}
+
+#img {
+  width: 130px;
+  height: 120px;
+  border-radius: 60px;
+}
+
+.abc {
+  font-size: 26px;
+  color: rgb(37, 249, 0);
+}
+
+#button {
+  font-size: 22px;
+  font-style: italic;
+  border-radius: 16px;
+  margin-top: 10px;
+  padding: 2px 16px 2px 16px;
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 204, 0, 0.825);
+}
+
+#section-abc {
+  padding-left: 25px;
+  /* padding-top: 10px; */
+}
+
+#total {
+  font-size: 36px;
+  padding: 6px;
+}
+
+#checkout {
+  font-size: 22px;
+  padding: 3px 18px 3px 18px;
+  border-start-start-radius: 12px;
+  border-end-end-radius: 10px;
+  background-color: rgba(152, 251, 4, 0.855);
+}
+
+.gen {
+  font-size: larger;
+  padding: 5px;
+}
+
+#mini-total {
+  color: rgba(147, 147, 255, 0);
+}
