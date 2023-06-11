@@ -17,11 +17,13 @@ const Item = ({ item }) => {
         <section>
           <img id="Game-img" src={img_arr[item.id - 1]} alt="Game" />
         </section>
+
         <div id="child-container">
           <section id="section-2">
             <article id="title">{item.attributes.Title}</article>
             <article id="description">{item.attributes.Description}</article>
           </section>
+
           <section id="section-3">
             <article id="price">${item.attributes.price}</article>
             <button
@@ -34,6 +36,7 @@ const Item = ({ item }) => {
             </button>
           </section>
         </div>
+
       </div>
     </>
   );

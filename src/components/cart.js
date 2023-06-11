@@ -58,7 +58,7 @@ const Cart = () => {
           id="checkout"
           className="general"
           onClick={() => {
-            razorPayDisplay(100);
+            razorPayDisplay(total);
           }}
         >
           Checkout
