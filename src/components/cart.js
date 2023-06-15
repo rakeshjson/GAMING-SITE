@@ -53,12 +53,18 @@ const Cart = () => {
             </article>
           );
         })}
-        <article id="total">Total: ${total}</article>
+
+        <div>
+          <span id="total">Total: ${total}</span>
+          {/* <span>( INR : {total * 82} /- ) </span> */}
+          <article>Total Amount in Indian Currency ( INR : {total * 82} /- ) </article>
+
+        </div>
         <button
           id="checkout"
           className="general"
           onClick={() => {
-            razorPayDisplay(total);
+            razorPayDisplay(total * 82);
           }}
         >
           Checkout
